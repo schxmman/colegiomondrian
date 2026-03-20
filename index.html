@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Colégio Mondrian | Tradição e Cuidado Familiar em Guarulhos</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "tertiary-container": "#523e00",
+                "primary-container": "#1a3a8f",
+                "secondary": "#b90c17",
+                "inverse-on-surface": "#f3f1ea",
+                "tertiary-fixed": "#ffdf92",
+                "surface-dim": "#dcdad3",
+                "tertiary-fixed-dim": "#eec140",
+                "secondary-fixed": "#ffdad6",
+                "surface-container-highest": "#e4e2db",
+                "tertiary": "#372900",
+                "secondary-container": "#de2e2c",
+                "primary": "#1a3a8f",
+                "on-secondary-container": "#fffbff",
+                "on-secondary-fixed-variant": "#93000d",
+                "on-background": "#1b1c18",
+                "on-tertiary-fixed-variant": "#594400",
+                "on-primary-fixed": "#00164e",
+                "surface-container-low": "#f6f3ec",
+                "secondary-fixed-dim": "#ffb4ab",
+                "on-tertiary": "#ffffff",
+                "on-surface-variant": "#444652",
+                "on-primary": "#ffffff",
+                "on-primary-container": "#91a9ff",
+                "surface-container-lowest": "#ffffff",
+                "on-secondary": "#ffffff",
+                "on-error-container": "#93000a",
+                "inverse-surface": "#30312c",
+                "outline": "#757683",
+                "surface": "#fcf9f2",
+                "error-container": "#ffdad6",
+                "on-primary-fixed-variant": "#224095",
+                "on-tertiary-fixed": "#241a00",
+                "background": "#fcf9f2",
+                "on-secondary-fixed": "#410002",
+                "error": "#ba1a1a",
+                "primary-fixed-dim": "#b5c4ff",
+                "on-tertiary-container": "#d2a727",
+                "on-error": "#ffffff",
+                "inverse-primary": "#b5c4ff",
+                "outline-variant": "#c4c5d3",
+                "surface-tint": "#3d59af",
+                "on-surface": "#1b1c18",
+                "surface-container": "#f0eee7",
+                "surface-bright": "#fcf9f2",
+                "surface-variant": "#e4e2db",
+                "surface-container-high": "#eae8e1",
+                "primary-fixed": "#dce1ff"
+              },
+              fontFamily: {
+                "headline": ["Inter", "sans-serif"],
+                "body": ["Inter", "sans-serif"],
+                "label": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .container-custom {
+            max-width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .border-mondrian {
+            border-width: 4px;
+            border-color: #111111;
+        }
+        @media (max-width: 768px) {
+            .container-custom {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            border: 2px solid #111111;
+            min-width: 200px;
+            z-index: 60;
+            box-shadow: 4px 4px 0px 0px #111111;
+        }
+        .nav-item:hover .nav-dropdown {
+            display: block;
+        }
+        .contact-circle {
+            background: linear-gradient(135deg, #00A651 50%, #1A3A8F 50%);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- Header/Navbar -->
+<header class="fixed top-0 w-full z-50">
+<!-- Top Bar -->
+<div class="h-[40px] bg-[#1A3A8F] flex items-center">
+<div class="container-custom w-full flex items-center justify-between text-white text-[12px] font-body">
+<div class="flex gap-4">
+<a class="hover:opacity-80 transition-opacity flex items-center justify-center" href="#"><i class="fa-brands fa-instagram text-base"></i></a>
+<a class="hover:opacity-80 transition-opacity flex items-center justify-center" href="#"><i class="fa-brands fa-facebook-f text-base"></i></a>
+</div>
+<div class="flex-grow text-center font-bold tracking-tight whitespace-nowrap overflow-hidden text-ellipsis px-4">
+                Av. Santana, 662 – Jardim Munhoz, Guarulhos | (11) 2422-2185 | Seg. a Sex. – 7h às 18h
+            </div>
+<div class="flex justify-end gap-4 invisible">
+<div class="w-8"></div>
+</div>
+</div>
+</div>
+<!-- Main Navbar -->
+<nav class="h-[80px] bg-white border-b-4 border-[#111111] flex items-center">
+<div class="container-custom w-full flex justify-between items-center h-full">
+<div class="flex items-center gap-10">
+<a class="flex items-center" href="/">
+<img alt="Colégio Mondrian" class="h-14 w-auto object-contain mix-blend-multiply" src="https://lh3.googleusercontent.com/aida/ADBb0ujb6d68tBdeWUtjvv_lxFBW_Frg5qh1jvKUG03giJEyrzEIGvYK8cDeItATfx5Gy-E-GUpdD-DClOlRqkmIPYWl0O-zMim6LPDEWWaq7OCttkUdNjL4gExZHQakex-fNIabuR6DpDRFb9ANQctvR9Xa00qEYZyqwDepOQccd05HqHi2ssPu2dMd0dxzNNmuJLbRVZ7P0F9zoaDU8LxgHtO8Zn-hqhILkaIpQ225mjzY1QKPuMJDYjOIDLy0wZZhBUcn0zY5zlrOOIo"/>
+</a>
+<div class="hidden lg:flex items-center gap-6 h-full">
+<div class="nav-item relative flex items-center h-[80px]">
+<a class="text-[#111111] font-bold text-sm hover:text-[#D62828] transition-colors flex items-center gap-1" href="#">
+                            Nossa História <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</a>
+<div class="nav-dropdown py-2">
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Linha do Tempo</a>
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Fundadores</a>
+</div>
+</div>
+<div class="nav-item relative flex items-center h-[80px]">
+<a class="text-[#111111] font-bold text-sm hover:text-[#D62828] transition-colors flex items-center gap-1" href="#">
+                            O Colégio <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</a>
+<div class="nav-dropdown py-2">
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Proposta Pedagógica</a>
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Equipe</a>
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Diferenciais</a>
+</div>
+</div>
+<div class="nav-item relative flex items-center h-[80px]">
+<a class="text-[#111111] font-bold text-sm hover:text-[#D62828] transition-colors flex items-center gap-1" href="#">
+                            Estrutura <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</a>
+<div class="nav-dropdown py-2">
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Salas de Aula</a>
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Espaço Kids</a>
+<a class="block px-4 py-2 text-sm font-bold hover:bg-[#1A3A8F] hover:text-white transition-colors" href="#">Área Esportiva</a>
+</div>
+</div>
+<a class="text-[#111111] font-bold text-sm hover:text-[#D62828] transition-colors" href="#">Notícias</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-5 py-2 border-2 border-[#111111] font-bold text-sm hover:bg-[#111111] hover:text-white transition-all">Área do Aluno</button>
+<button class="bg-[#F7C948] text-[#111111] px-5 py-2 border-2 border-[#111111] font-bold text-sm hover:bg-[#111111] hover:text-white transition-all">Agendar Visita</button>
+</div>
+</div>
+</nav>
+</header>
+<main class="pt-[120px]">
+<!-- 1. HERO SECTION -->
+<section class="bg-[#F9F8F4] py-16 md:py-24 overflow-hidden">
+<div class="container-custom flex flex-col md:flex-row items-center gap-12">
+<!-- Left 55% -->
+<div class="w-full md:w-[55%]">
+<span class="inline-block bg-[#F7C948] text-[#111111] px-3 py-1 font-black text-[10px] tracking-widest uppercase mb-6 border border-[#111111]">MATRÍCULAS ABERTAS 2026</span>
+<h1 class="font-headline text-5xl md:text-7xl font-black text-[#111111] leading-tight mb-6">
+                    Onde seu filho é acolhido como parte da família.
+                </h1>
+<p class="text-xl text-[#444652] mb-10 max-w-lg">
+                    Há 15 anos em Guarulhos, transformando o ensino em uma experiência afetiva com cuidado personalizado e atenção dedicada a cada etapa.
+                </p>
+<div class="flex flex-wrap gap-4 mb-12">
+<button class="bg-[#F7C948] text-[#111111] px-8 py-4 font-black border-2 border-[#111111] hover:bg-[#111111] hover:text-white transition-all uppercase text-sm">
+                        Agendar uma Visita
+                    </button>
+<button class="bg-transparent text-[#111111] px-8 py-4 font-black border-2 border-[#111111] hover:bg-[#111111] hover:text-white transition-all uppercase text-sm">
+                        Falar com a Secretaria
+                    </button>
+</div>
+<!-- Mini Stats -->
+<div class="flex gap-8 border-t-2 border-[#111111]/10 pt-8">
+<div>
+<p class="font-headline text-2xl font-black">15 anos</p>
+<p class="text-[10px] uppercase font-bold text-[#444652]">de tradição local</p>
+</div>
+<div>
+<p class="font-headline text-2xl font-black">Comunidade</p>
+<p class="text-[10px] uppercase font-bold text-[#444652]">atendimento próximo</p>
+</div>
+<div>
+<p class="font-headline text-2xl font-black">Individualizado</p>
+<p class="text-[10px] uppercase font-bold text-[#444652]">Ensino dedicado</p>
+</div>
+</div>
+</div>
+<!-- Right 45% -->
+<div class="w-full md:w-[45%] relative">
+<div class="relative z-10 border-[3px] border-[#111111] aspect-square overflow-hidden bg-white shadow-[20px_20px_0px_0px_#D62828]">
+<img alt="Ambiente acolhedor Mondrian" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbYczsg0fgDctj-Mqo7kzLjp_WMmxW6wgtB133P_t8ooeYjEMw-f3qeIxKjjzMkQnioNybMDG6mgpo2TyYcY4WglmuwSdeR-TQibLrxzcvY8NXltLtAts7NG2kTiCMlDZDvMYlzKnd7BshY-hLgI0DbvXsABDx5Z90zKA4cwvFYPtS5JU2qd2gAksuYtK10eVRwyneBOCGuXlO-JMOxYH46BryzJ7hAWlczBKHS9mCs0E_-vVdJDtN5F63gv_tHRGKIYSHIhGACZQV"/>
+</div>
+<!-- Floating Badge -->
+<div class="absolute -top-4 -right-4 z-20 bg-white border-2 border-[#111111] p-4 shadow-[4px_4px_0px_0px_#111111] max-w-[140px]">
+<p class="font-bold text-[10px] leading-tight text-center">🏠<br/>Ambiente acolhedor e familiar</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SHORTCUT SECTION -->
+<section class="bg-[#E8E6DF] py-6 border-y-4 border-[#111111]">
+<div class="container-custom">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<button class="bg-white border-2 border-[#111111] py-4 px-6 flex items-center justify-center gap-3 font-bold hover:bg-[#1A3A8F] hover:text-white transition-all group">
+<span class="text-xl">📅</span> Agendar uma Visita
+                </button>
+<button class="bg-white border-2 border-[#111111] py-4 px-6 flex items-center justify-center gap-3 font-bold hover:bg-[#1A3A8F] hover:text-white transition-all group">
+<span class="text-xl">🏠</span> Conhecer nossa Estrutura
+                </button>
+<button class="bg-white border-2 border-[#111111] py-4 px-6 flex items-center justify-center gap-3 font-bold hover:bg-[#1A3A8F] hover:text-white transition-all group">
+<span class="text-xl">💬</span> Atendimento via WhatsApp
+                </button>
+</div>
+</div>
+</section>
+<!-- 5. LEVELS OF EDUCATION -->
+<section class="py-24 bg-white">
+<div class="container-custom">
+<div class="mb-16 border-l-8 border-[#1A3A8F] pl-8">
+<h2 class="font-headline text-5xl font-black uppercase tracking-tighter">Educação com Alma</h2>
+<p class="font-bold text-[#444652] text-sm uppercase tracking-widest mt-2">Foco no desenvolvimento integral do berçário ao 9º ano</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-4 border-[#111111]">
+<!-- Card 1 -->
+<div class="p-8 border-b-4 md:border-b-0 md:border-r-4 border-[#111111] hover:bg-[#1A3A8F] hover:text-white transition-colors duration-300 group">
+<h3 class="font-headline text-2xl font-black mb-4 text-[#1A3A8F] group-hover:text-white">Berçário</h3>
+<p class="text-sm leading-relaxed mb-8 opacity-90 font-medium">Um prolongamento do colo dos pais, com segurança absoluta e profissionais que amam o que fazem.</p>
+<span class="material-symbols-outlined text-4xl">baby_changing_station</span>
+</div>
+<!-- Card 2 -->
+<div class="p-8 border-b-4 md:border-b-0 lg:border-r-4 border-[#111111] hover:bg-[#D62828] hover:text-white transition-colors duration-300 group">
+<h3 class="font-headline text-2xl font-black mb-4 text-[#D62828] group-hover:text-white">Infantil</h3>
+<p class="text-sm leading-relaxed mb-8 opacity-90 font-medium">O aprendizado lúdico onde cada criança é ouvida e respeitada em seu próprio tempo de descoberta.</p>
+<span class="material-symbols-outlined text-4xl">toys</span>
+</div>
+<!-- Card 3 -->
+<div class="p-8 border-b-4 md:border-b-0 md:border-r-4 border-[#111111] hover:bg-[#F7C948] hover:text-[#111111] transition-colors duration-300 group">
+<h3 class="font-headline text-2xl font-black mb-4 text-[#111111]">Fundamental I</h3>
+<p class="text-sm leading-relaxed mb-8 opacity-90 font-medium">O ensino individualizado garante que nenhum aluno fique para trás. Alfabetização com carinho e foco.</p>
+<span class="material-symbols-outlined text-4xl">menu_book</span>
+</div>
+<!-- Card 4 -->
+<div class="p-8 relative hover:bg-[#111111] hover:text-white transition-colors duration-300 group overflow-hidden">
+<div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity">
+<img alt="Estudantes Mondrian" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxh4vRziIqTvlRwLI2o5fqD4Vz8XsYbzRVBMnk9TZHwG7oKfR8oBYNY0peHX-aSg9cd5YohME78twHJcFYHAzl6GqLizih5KPY6q4u50I_jA90n7QO3SRJeYiklaxvEcGvcJKHEKfmz31WcOUcik8lh74LiDULWgKu6blEIx4_qFSzm_XSZW53OleU6Flbw-Fc65Ul4S4zAy4tK-6NdveZDzrxPOX5gLQlA_DVAzMtxoUSxm4DQHqai22Fvp2MXxbAhGz8F5qoVWdP"/>
+</div>
+<div class="relative z-10">
+<h3 class="font-headline text-2xl font-black mb-4">Fundamental II</h3>
+<p class="text-sm leading-relaxed mb-8 opacity-90 font-medium">A transição para a adolescência vivida com diálogo constante, autonomia e sólidos valores humanos.</p>
+<div class="flex justify-between items-center">
+<span class="material-symbols-outlined text-4xl">school</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. NUMBERS/STATS -->
+<section class="bg-[#1A3A8F] text-white py-16 border-y-4 border-[#111111]">
+<div class="container-custom">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center">
+<span class="block text-5xl font-black font-headline mb-2 italic">15</span>
+<span class="text-xs font-bold tracking-widest uppercase opacity-70">Anos em Guarulhos</span>
+</div>
+<div class="text-center">
+<span class="block text-5xl font-black font-headline mb-2 italic">100%</span>
+<span class="text-xs font-bold tracking-widest uppercase opacity-70">Acompanhamento</span>
+</div>
+<div class="text-center">
+<span class="block text-5xl font-black font-headline mb-2 italic">Atenção</span>
+<span class="text-xs font-bold tracking-widest uppercase opacity-70">Ensino Individualizado</span>
+</div>
+<div class="text-center">
+<span class="block text-5xl font-black font-headline mb-2 italic">Família</span>
+<span class="text-xs font-bold tracking-widest uppercase opacity-70">Nossa Identidade</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. TESTIMONIALS -->
+<section class="py-24 bg-[#F9F8F4]">
+<div class="container-custom">
+<h2 class="font-headline text-5xl font-black text-center mb-16 uppercase italic">Quem faz parte da nossa história</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white p-10 border-4 border-[#111111] border-l-[12px] border-l-[#1A3A8F] flex flex-col justify-between shadow-[8px_8px_0px_0px_rgba(17,17,17,0.1)]">
+<p class="font-headline text-xl text-[#111111] mb-8 leading-snug">"O Mondrian não é só uma escola, é a extensão da nossa casa. A diretoria conhece meu filho pelo nome e sabe de cada necessidade dele."</p>
+<div>
+<p class="font-black text-[#111111] uppercase tracking-tighter">Luciana Ferreira</p>
+<p class="text-[10px] font-bold text-[#444652] uppercase">Mãe de aluno em Guarulhos</p>
+</div>
+</div>
+<div class="bg-white p-10 border-4 border-[#111111] border-l-[12px] border-l-[#D62828] flex flex-col justify-between shadow-[8px_8px_0px_0px_rgba(17,17,17,0.1)]">
+<p class="font-headline text-xl text-[#111111] mb-8 leading-snug">"O diferencial do atendimento próximo é brutal. O professor consegue dar attention real. Meu filho recuperou o prazer em aprender."</p>
+<div>
+<p class="font-black text-[#111111] uppercase tracking-tighter">Marcos Oliveira</p>
+<p class="text-[10px] font-bold text-[#444652] uppercase">Pai do 4º ano</p>
+</div>
+</div>
+<div class="bg-white p-10 border-4 border-[#111111] border-l-[12px] border-l-[#F7C948] flex flex-col justify-between shadow-[8px_8px_0px_0px_rgba(17,17,17,0.1)]">
+<p class="font-headline text-xl text-[#111111] mb-8 leading-snug">"Buscávamos uma escola que não fosse uma 'fábrica'. Encontramos no Mondrian um porto seguro e um ensino humano impecável."</p>
+<div>
+<p class="font-black text-[#111111] uppercase tracking-tighter">Renata Souza</p>
+<p class="text-[10px] font-bold text-[#444652] uppercase">Família Mondrian há 5 anos</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. IMPACTFUL MATRÍCULAS SECTION (Replaces Contact Section) -->
+<section class="py-24 bg-white border-t-4 border-[#111111]">
+<div class="container-custom">
+<div class="bg-[#1A3A8F] border-4 border-[#111111] flex flex-col lg:flex-row shadow-[16px_16px_0px_0px_#111111]">
+<!-- Left Content -->
+<div class="w-full lg:w-3/5 p-12 lg:p-20 flex flex-col justify-center items-start">
+<span class="bg-[#F7C948] text-[#111111] px-4 py-1 font-black text-xs tracking-widest uppercase mb-8 border-2 border-[#111111]">
+                        MATRÍCULAS 2026
+                    </span>
+<h2 class="font-headline text-4xl md:text-6xl font-black text-white leading-tight mb-8">
+                        Educação próxima.<br/>Futuro gigante.
+                    </h2>
+<p class="text-lg md:text-xl text-white opacity-90 mb-12 max-w-xl font-body">
+                        Garanta o futuro do seu filho em um ambiente que une tradição e inovação. Turmas com atenção dedicada e formação humana.
+                    </p>
+<button class="bg-[#F7C948] text-[#111111] px-10 py-5 font-bold text-sm md:text-base border-4 border-[#111111] hover:bg-white hover:text-[#111111] transition-all flex items-center gap-4 group">
+                        AGENDAR UMA VISITA FAMILIAR <span class="group-hover:translate-x-1 transition-transform">→</span>
+</button>
+</div>
+<!-- Right Visual (Mondrian Composition) -->
+<div class="w-full lg:w-2/5 border-t-4 lg:border-t-0 lg:border-l-4 border-[#111111] grid grid-cols-2 grid-rows-2">
+<!-- Top Left: Photo -->
+<div class="border-r-4 border-b-4 border-[#111111] overflow-hidden bg-white">
+<img alt="Detalhe educativo" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHX1G8j0Z_-V-X9X7T0mZfK-8X8P6-6_L1L_R-m-z-T-J-M-R-m-z-T-J-M-R-m-z-T-J-M"/>
+</div>
+<!-- Top Right: Yellow Block -->
+<div class="bg-[#F7C948] border-b-4 border-[#111111]"></div>
+<!-- Bottom Left: Red Block -->
+<div class="bg-[#D62828] border-r-4 border-[#111111]"></div>
+<!-- Bottom Right: Black Block with History -->
+<div class="bg-[#111111] flex flex-col items-center justify-center p-8">
+<span class="text-white font-headline text-7xl font-black italic">15</span>
+<span class="text-white text-[10px] font-bold tracking-[0.2em] uppercase mt-2 text-center opacity-60">ANOS DE HISTÓRIA</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#111111] text-white pt-20 pb-8 border-t-8 border-[#1A3A8F]">
+<div class="container-custom">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+<div>
+<img alt="Colégio Mondrian" class="h-16 w-auto mb-6 brightness-0 invert" src="https://lh3.googleusercontent.com/aida/ADBb0ujb6d68tBdeWUtjvv_lxFBW_Frg5qh1jvKUG03giJEyrzEIGvYK8cDeItATfx5Gy-E-GUpdD-DClOlRqkmIPYWl0O-zMim6LPDEWWaq7OCttkUdNjL4gExZHQakex-fNIabuR6DpDRFb9ANQctvR9Xa00qEYZyqwDepOQccd05HqHi2ssPu2dMd0dxzNNmuJLbRVZ7P0F9zoaDU8LxgHtO8Zn-hqhILkaIpQ225mjzY1QKPuMJDYjOIDLy0wZZhBUcn0zY5zlrOOIo"/>
+<p class="text-sm opacity-60 leading-relaxed mb-8">Formando gerações com excelência, afeto e cuidado personalizado em Guarulhos há 15 anos.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-[#1A3A8F] transition-all" href="#" title="Facebook"><i class="fa-brands fa-facebook-f text-lg"></i></a>
+<a class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-[#D62828] transition-all" href="#" title="Instagram"><i class="fa-brands fa-instagram text-lg"></i></a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-sm uppercase tracking-widest mb-8 text-[#F7C948]">Links Úteis</h4>
+<ul class="space-y-4 text-sm opacity-80">
+<li><a class="hover:text-[#F7C948] transition-colors" href="#">Portal do Aluno</a></li>
+<li><a class="hover:text-[#F7C948] transition-colors" href="#">Lista de Materiais</a></li>
+<li><a class="hover:text-[#F7C948] transition-colors" href="#">Calendário Acadêmico</a></li>
+<li><a class="hover:text-[#F7C948] transition-colors" href="#">Trabalhe Conosco</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-sm uppercase tracking-widest mb-8 text-[#F7C948]">Contato</h4>
+<p class="text-sm opacity-80 mb-4">Av. Santana, 662 – Jardim Munhoz<br/>Guarulhos - SP, 07033-000</p>
+<p class="text-sm opacity-80 mb-2 font-bold">📞 (11) 2422-2185</p>
+<p class="text-sm opacity-80 mb-2">✉️ contato@colegiomondrian.com.br</p>
+<p class="text-[10px] uppercase opacity-50 mt-4">Nossa casa está sempre aberta para você.</p>
+</div>
+</div>
+<div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[11px] opacity-40">© 2024 Colégio Mondrian. Escola de Ensino Fundamental em Guarulhos.</p>
+<p class="text-[11px] opacity-40 font-body">
+                Desenvolvido por <a class="underline hover:text-white transition-colors" href="https://awakenco.com.br">Awaken Co.</a>
+</p>
+</div>
+</div>
+</footer>
+</body></html>
